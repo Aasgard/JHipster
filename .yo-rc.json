@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "baseName": "opower",
+    "packageName": "fr.istic.opower",
+    "packageFolder": "fr/istic/opower",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "410229cc6be9fa5ca0f3308eeb1776b4237494ec",
+    "testFrameworks": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "friends",
+      "otherEntityName": "person",
+      "relationshipType": "many-to-many",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipId": 2,
+      "relationshipName": "homes",
+      "otherEntityName": "house",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "person"
+    },
+    {
+      "relationshipId": 3,
+      "relationshipName": "friendOf",
+      "otherEntityName": "person",
+      "relationshipType": "many-to-many",
+      "ownerSide": false,
+      "otherEntityRelationshipName": "friends"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "email",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20160502201251",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}

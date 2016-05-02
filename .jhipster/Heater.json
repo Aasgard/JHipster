@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "house",
+      "otherEntityName": "house",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "avgConsumption",
+      "fieldType": "Double"
+    }
+  ],
+  "changelogDate": "20160502201254",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no"
+}
